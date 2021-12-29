@@ -1,0 +1,20 @@
+{
+    "type": "postgres",
+    "host": "bvj1bxprlwtburm7qad8-postgresql.services.clever-cloud.com",
+    "port": 5432,
+    "username": "ucgxzssb30iwbbkthvdf",
+    "password": "Eain21iwGhJc60v962Tc",
+    "database": "bvj1bxprlwtburm7qad8",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "./src/app/entity/*.ts"
+    ],
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "./src/app/entity",
+        "migrationsDir": "./src/database/migrations"
+    }
+}
